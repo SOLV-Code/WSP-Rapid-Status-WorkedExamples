@@ -1,6 +1,6 @@
-CU_ID,CU_Acro,CU_Name,Description,Species,DataType,Label,Year,Metric,Compare,LBM,UBM,Value,Status,Group,New_Group
-Case1,Sockeye_CU_A,Sockeye_CU_A,Add Text here,Sockeye,Abs_Abd,SpnForAbd_Wild,2010,IntStatus,NA,NA,NA,3,Amber,SK-Fraser_Esum,Sk-Southern
-Case1,Sockeye_CU_A,Sockeye_CU_A,Add Text here,Sockeye,Abs_Abd,SpnForAbd_Wild,2015,IntStatus,NA,NA,NA,3,Amber,SK-Fraser_Esum,Sk-Southern
-Case2,Sockeye_CU_B,Sockeye_CU_B,Add Text here,Sockeye,Abs_Abd,SpnForAbd_Wild,2010,IntStatus,NA,NA,NA,5,Green,SK-Fraser_Sum,Sk-Southern
-Case2,Sockeye_CU_B,Sockeye_CU_B,Add Text here,Sockeye,Abs_Abd,SpnForAbd_Wild,2015,IntStatus,NA,NA,NA,5,Green,SK-Fraser_Sum,Sk-Southern
-Case6,Chinook_CU_B,Chinook_CU_B,Add Text here,Chinook,Rel_Idx,SpnForAbd_Wild,2012,IntStatus,NA,NA,NA,1,Red,CK-Fraser_Thompson,Ck_Southern
+CU_ID,CU_Acro,CU_Name,Description,Species,DataType,Label,Year,Metric,Compare,LBM,UBM,Value,Status,Group
+Case1,Sockeye_CU_A,Sockeye_CU_A,Add Text here,Sockeye,Abs_Abd,SpnForAbd_Wild,2010,IntStatus,NA,NA,NA,3,Amber,Sk-Southern
+Case1,Sockeye_CU_A,Sockeye_CU_A,Add Text here,Sockeye,Abs_Abd,SpnForAbd_Wild,2015,IntStatus,NA,NA,NA,3,Amber,Sk-Southern
+Case2,Sockeye_CU_B,Sockeye_CU_B,Add Text here,Sockeye,Abs_Abd,SpnForAbd_Wild,2010,IntStatus,NA,NA,NA,5,Green,Sk-Southern
+Case2,Sockeye_CU_B,Sockeye_CU_B,Add Text here,Sockeye,Abs_Abd,SpnForAbd_Wild,2015,IntStatus,NA,NA,NA,5,Green,Sk-Southern
+Case6,Chinook_CU_B,Chinook_CU_B,Add Text here,Chinook,Rel_Idx,SpnForAbd_Wild,2012,IntStatus,NA,NA,NA,1,Red,Ck_Southern
