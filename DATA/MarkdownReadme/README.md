@@ -22,7 +22,7 @@ Put some brief text that describes the dashboards
 Add Text here
 
 
-<img src=" https://github.com/SOLV-Code/WSP-Rapid-Status-WorkedExamples/blob/main/DATA/Dashboards/Sk-Southern_Sockeye_CU_A_Case1.png") width="600">
+<img src="https://github.com/SOLV-Code/WSP-Rapid-Status-WorkedExamples/blob/main/DATA/Dashboards/Sk-Southern_Sockeye_CU_A_Case1.png" width="600">
 
 
 ### Sockeye_CU_B (Case2, Sk-Southern)
@@ -57,4 +57,8 @@ Add Text here
 Add Text here
 
 
+<<<<<<< HEAD
 <img src=" https://github.com/SOLV-Code/WSP-Rapid-Status-WorkedExamples/blob/main/DATA/Dashboards/Ck_Southern_Chinook_CU_B_Case6.png") width="600">
+=======
+<img src=" https://github.com/SOLV-Code/WSP-Rapid-Status-WorkedExamples/tree/main//blob/main/DATA/Dashboards/Ck_Southern_Chinook_CU_B_Case6.png") width="600">
+>>>>>>> a9f6dfd8cccfe30873ec51e0158306875a0d4c59
