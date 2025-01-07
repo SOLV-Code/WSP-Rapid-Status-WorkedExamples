@@ -22,7 +22,7 @@ Put some brief text that describes the dashboards
 Add Text here
 
 
-<img src=" https://github.com/SOLV-Code/WSP-Rapid-Status-WorkedExamples/tree/main//blob/main/DATA/Dashboards/Sk-Southern_Sockeye_CU_A_Case1.png") width="600">
+<img src=" https://github.com/SOLV-Code/WSP-Rapid-Status-WorkedExamples/blob/main/DATA/Dashboards/Sk-Southern_Sockeye_CU_A_Case1.png") width="600">
 
 
 ### Sockeye_CU_B (Case2, Sk-Southern)
