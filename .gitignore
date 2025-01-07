@@ -1,4 +1,10 @@
 # History files
+
+
+*.docx
+
+
+
 .Rhistory
 .Rapp.history
 
