@@ -5,7 +5,7 @@
 # Adjust True/False settings below as needed
 
 # Settings
-install.package <- FALSE # if TRUE, install the latest version of the R package
+install.package <- TRUE # if TRUE, install the latest version of the R package
 new.readme <- TRUE # if TRUE, generate a basic Readme file template.
 new.quarto <- TRUE # if TRUE, generate a basic quarto file template that can be used to render word, html, or pdf files
 # IMPORTANT: if new.readme or new.quarto are TRUE, these will be generated and overwrite
