@@ -79,7 +79,7 @@ if(new.readme){
 generateReportTemplate(type = "readme",
                        file.label = "Report", # doesn't apply to readme
                        files.path = "DATA",
-                       repo.path = "https://github.com/SOLV-Code/WSP-Rapid-Status-WorkedExamples/tree/main/")
+                       repo.path = "https://github.com/SOLV-Code/WSP-Rapid-Status-WorkedExamples")
 }
 
 if(new.quarto){
