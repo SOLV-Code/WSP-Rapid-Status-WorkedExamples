@@ -18,10 +18,10 @@ require("devtools") # check for and, if needed, install the devtools package
 library(devtools) # Load the devtools package.
 
 # for latest dev version, use this
-#install_github("SOLV-CODE/WSP-Metrics-Pkg", dependencies = TRUE, build_vignettes = FALSE)
+install_github("SOLV-CODE/WSP-Metrics-Pkg", dependencies = TRUE, build_vignettes = FALSE)
 
 # for latest official version, use this
-install_github("Pacific-salmon-assess/WSP-Metrics-Pkg", dependencies = TRUE, build_vignettes = FALSE)
+#install_github("Pacific-salmon-assess/WSP-Metrics-Pkg", dependencies = TRUE, build_vignettes = FALSE)
 
 
 library(WSPMetrics)
