@@ -15,7 +15,7 @@ You will need three things:
 
 
 <img src="https://github.com/SOLV-Code/WSP-Rapid-Status-WorkedExamples/blob/main/DATA/Dashboards_NoStatus/WorkedExample_CU1_Chinook_Case1.png"
-	width="500">
+	width="600">
 
 Update Numbers!
 
@@ -28,4 +28,92 @@ Relative abundance lower threshold | 12,000
 Relative abundance upper threshold	| 27,000
 Long term trend current value: ratio of current abundance to long-term average| 	190%
 Short term trend (3 generation average) current value |	300%
-comments| recent fires in this system; lots of human activity in the area; high use of lake and streams; 
+Comments| recent fires in this system; lots of human activity in the area; high use of lake and streams; 
+
+
+
+
+## Conservation Unit 2 (Sockeye)
+
+
+
+<img src="https://github.com/SOLV-Code/WSP-Rapid-Status-WorkedExamples/blob/main/DATA/Dashboards_NoStatus/WorkedExample_CU2_Sockeye_Case2.png"
+	width="600">
+
+Update Numbers!
+
+**Metrics and Data Types** | **CU Information**
+-- | --
+Can absolute abundance be used	| Yes, data are sonar high accuracy and precision generally
+Can relative abundance metric be used	| Yes, benchmarks align with abundance time series
+Current generation average |	2,500
+Relative abundance lower threshold |	5,000
+Relative abundance upper threshold |	19,000
+Long term trend current value: ratio of current abundance to long-term average	| 50%
+Short term trend (3 generation average) current value |	-40%
+Comments |	Dam on this system early in time series removed in 1950’s for one population; recent fires
+
+
+## Conservation Unit 3 (Chinook)
+
+
+
+<img src="https://github.com/SOLV-Code/WSP-Rapid-Status-WorkedExamples/blob/main/DATA/Dashboards_NoStatus/WorkedExample_CU3_Chinook_Case3.png"
+	width="600">
+
+Update Numbers!
+
+**Metrics and Data Types** | **CU Information**
+-- | --
+Can absolute abundance be used	| No, these are visual surveys with moderate precision-accuracy; aerial overflights
+Can relative abundance metric be used |	No, there are no benchmarks for this CU
+Current generation average	| 200,000
+Relative abundance lower threshold	| NA
+Relative abundance upper threshold |	NA
+Long term trend current value: ratio of current abundance to long-term average	| 800%
+Short term trend (3 generation average) current value	| 350%
+Comments |	none
+
+
+
+## Conservation Unit 4 (Sockeye)
+
+
+<img src="https://github.com/SOLV-Code/WSP-Rapid-Status-WorkedExamples/blob/main/DATA/Dashboards_NoStatus/WorkedExample_CU4_Sockeye_Case4.png"
+	width="600">
+
+Update Numbers!
+
+**Metrics and Data Types** | **CU Information**
+-- | --
+Can absolute abundance be used	| No, these are visual surveys with moderate precision-accuracy; foot surveys
+Can relative abundance metric be used	| No, there are no benchmarks for this CU
+Current generation average	| DISCUSS
+Relative abundance lower threshold	| NA
+Relative abundance upper threshold	| NA
+Long term trend current value: ratio of current abundance to long-term average	| 82%
+Short term trend (3 generation average) current value |	-95%
+Comments	| Big landslide in this system’s lake in 2010 increased turbidity for several years; very small system comprised of a few smaller streams that feed into a lake
+
+
+
+## Conservation Unit 5 (Chinook)
+
+
+
+<img src="https://github.com/SOLV-Code/WSP-Rapid-Status-WorkedExamples/blob/main/DATA/Dashboards_NoStatus/WorkedExample_CU5_Chinook_Case5.png"
+	width="600">
+
+Update Numbers!
+
+**Metrics and Data Types** | **CU Information**
+-- | --
+Can absolute abundance be used	| Yes 
+Can relative abundance metric be used	| Yes
+Current generation average	| 40
+Relative abundance lower threshold	| 4,600
+Relative abundance upper threshold	| 640
+Long term trend current value: ratio of current abundance to long-term average	| 250%
+Short term trend (3 generation average) current value	| 100%
+Comments |	Migration barriers but considerable recent work to restore spawning habitat
+
