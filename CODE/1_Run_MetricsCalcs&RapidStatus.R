@@ -6,10 +6,7 @@
 
 # Settings
 install.package <- TRUE # if TRUE, install the latest version of the R package
-new.readme <- TRUE # if TRUE, generate a basic Readme file template.
-new.quarto <- TRUE # if TRUE, generate a basic quarto file template that can be used to render word, html, or pdf files
-# IMPORTANT: if new.readme or new.quarto are TRUE, these will be generated and overwrite
-#              any edits made to earlier versions of the template
+
 
 
 # Install the WSPMetrics package
@@ -80,22 +77,15 @@ plotStatusDashboards(
   retro.summary.tbl = rapid.status.results$SummaryTable,
   cu.data = metrics.out$Data,
   out.label = "RapidStatusOut",
-  out.filepath = "DATA/Dashboards")
+  out.filepath = "DATA/Dashboards",
+  plot.status.timeline = TRUE)
 
-if(new.readme){
-generateReportTemplate(type = "readme",
-                       file.label = "Report", # doesn't apply to readme
-                       files.path = "DATA",
-                       repo.path = "https://github.com/SOLV-Code/WSP-Rapid-Status-WorkedExamples")
-}
-
-if(new.quarto){
-generateReportTemplate(type = "quarto",
-                       file.label = "Report", # doesn't apply to readme
-                       files.path = "DATA",
-                       repo.path = NULL)
-}
-
-
+plotStatusDashboards(
+  cu.info =  metrics.out$Specs,
+  retro.summary.tbl = rapid.status.results$SummaryTable,
+  cu.data = metrics.out$Data,
+  out.label = "RapidStatusOut",
+  out.filepath = "DATA/Dashboards_NoStatus",
+  plot.status.timeline = FALSE)
 
 
