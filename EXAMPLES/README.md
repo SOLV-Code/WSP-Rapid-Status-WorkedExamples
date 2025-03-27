@@ -14,7 +14,7 @@ You will need three things:
 
 
 
-<img src="https://github.com/SOLV-Code/WSP-Rapid-Status-WorkedExamples/tree/main/DATA/Dashboards_NoSTatus/WorkedExample_CU1_Chinook_Case1.png"
+<img src="https://github.com/SOLV-Code/WSP-Rapid-Status-WorkedExamples/tree/main/DATA/Dashboards_NoStatus/WorkedExample_CU1_Chinook_Case1.png"
 	width="600">
 
 Update Numbers!
