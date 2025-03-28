@@ -2,11 +2,11 @@
 
 You will need three things:
 
-1.	Copy of WSP rapid status decision tree; there is the full decision tree that is required and a simplified decision tree when you are starting out to understand basic concepts. These are available LINK.
+1.	Copy of WSP rapid status decision tree; there is the full decision tree that is required and a simplified decision tree when you are starting out to understand basic concepts. These are available [here](https://github.com/SOLV-Code/WSP-Rapid-Status-WorkedExamples/tree/main/DECISION_TREE).
 
-2.	Information required to assign status for each CU: includes data summaries and table of supporting information; assume you are the expert on these CUs and what is contained in the tables and figures below is some of your knowledge on these CUs
+2.	Information required to assign status for each CU: includes data summaries and table of supporting information; assume you are the expert on these CUs and what is contained in the tables and figures below is some of your knowledge on these CUs.
 
-3.	Form to fill in for each CU as you step through to assign status and provide any additional narrative on the data. After you assign status you could assign any notes or observations or things you would want to check and understand before finalizing. A template is available LINK
+3.	Form to fill in for each CU as you step through to assign status and provide any additional narrative on the data. After you assign status you could assign any notes or observations or things you would want to check and understand before finalizing. A template is available [here](https://github.com/SOLV-Code/WSP-Rapid-Status-WorkedExamples/blob/main/TEMPLATES/WSP_Status_Template.pdf)
 
 
 
@@ -17,17 +17,17 @@ You will need three things:
 <img src="https://github.com/SOLV-Code/WSP-Rapid-Status-WorkedExamples/blob/main/DATA/Dashboards_NoStatus/WorkedExample_CU1_Chinook_Case1.png"
 	width="600">
 
-Update Numbers!
+**Metric Information for 2023**
 
 **Metrics and Data Types** | **CU Information**
 -- | --
 Can Absolute Abundance be used? | Yes-data are fence counts of absolute abundance
 Can relative abundance metric be used	| Yes benchmarks align with abundance time series
-Current generation average	| 35,000
-Relative abundance lower threshold | 12,000
-Relative abundance upper threshold	| 27,000
-Long term trend current value: ratio of current abundance to long-term average| 	190%
-Short term trend (3 generation average) current value |	300%
+Current generation average	| 38,600
+Relative abundance lower threshold | 13,650
+Relative abundance upper threshold	| 26,800
+Long term trend current value: ratio of current abundance to long-term average| 	188%
+Short term trend (3 generation average) current value |	305%
 Comments| recent fires in this system; lots of human activity in the area; high use of lake and streams; 
 
 
@@ -40,17 +40,17 @@ Comments| recent fires in this system; lots of human activity in the area; high 
 <img src="https://github.com/SOLV-Code/WSP-Rapid-Status-WorkedExamples/blob/main/DATA/Dashboards_NoStatus/WorkedExample_CU2_Sockeye_Case2.png"
 	width="600">
 
-Update Numbers!
+**Metric Information for 2022**
 
 **Metrics and Data Types** | **CU Information**
 -- | --
 Can absolute abundance be used	| Yes, data are sonar high accuracy and precision generally
 Can relative abundance metric be used	| Yes, benchmarks align with abundance time series
-Current generation average |	2,500
-Relative abundance lower threshold |	5,000
-Relative abundance upper threshold |	19,000
-Long term trend current value: ratio of current abundance to long-term average	| 50%
-Short term trend (3 generation average) current value |	-40%
+Current generation average |	2,300
+Relative abundance lower threshold |	4,700
+Relative abundance upper threshold |	17,000
+Long term trend current value: ratio of current abundance to long-term average	| 54%
+Short term trend (3 generation average) current value |	-74%
 Comments |	Dam on this system early in time series removed in 1950’s for one population; recent fires
 
 
@@ -61,17 +61,17 @@ Comments |	Dam on this system early in time series removed in 1950’s for one p
 <img src="https://github.com/SOLV-Code/WSP-Rapid-Status-WorkedExamples/blob/main/DATA/Dashboards_NoStatus/WorkedExample_CU3_Chinook_Case3.png"
 	width="600">
 
-Update Numbers!
+**Metric Information for 2023**
 
 **Metrics and Data Types** | **CU Information**
 -- | --
 Can absolute abundance be used	| No, these are visual surveys with moderate precision-accuracy; aerial overflights
 Can relative abundance metric be used |	No, there are no benchmarks for this CU
-Current generation average	| 200,000
+Current generation average	| 221,900
 Relative abundance lower threshold	| NA
 Relative abundance upper threshold |	NA
-Long term trend current value: ratio of current abundance to long-term average	| 800%
-Short term trend (3 generation average) current value	| 350%
+Long term trend current value: ratio of current abundance to long-term average	| 822%
+Short term trend (3 generation average) current value	| 361%
 Comments |	none
 
 
@@ -82,17 +82,17 @@ Comments |	none
 <img src="https://github.com/SOLV-Code/WSP-Rapid-Status-WorkedExamples/blob/main/DATA/Dashboards_NoStatus/WorkedExample_CU4_Sockeye_Case4.png"
 	width="600">
 
-Update Numbers!
+**Metric Information for 2023**
 
 **Metrics and Data Types** | **CU Information**
 -- | --
 Can absolute abundance be used	| No, these are visual surveys with moderate precision-accuracy; foot surveys
 Can relative abundance metric be used	| No, there are no benchmarks for this CU
-Current generation average	| DISCUSS
+Current generation average	| 722
 Relative abundance lower threshold	| NA
 Relative abundance upper threshold	| NA
-Long term trend current value: ratio of current abundance to long-term average	| 82%
-Short term trend (3 generation average) current value |	-95%
+Long term trend current value: ratio of current abundance to long-term average	| 74%
+Short term trend (3 generation average) current value |	-96%
 Comments	| Big landslide in this system’s lake in 2010 increased turbidity for several years; very small system comprised of a few smaller streams that feed into a lake
 
 
@@ -100,20 +100,19 @@ Comments	| Big landslide in this system’s lake in 2010 increased turbidity for
 ## Conservation Unit 5 (Chinook)
 
 
-
 <img src="https://github.com/SOLV-Code/WSP-Rapid-Status-WorkedExamples/blob/main/DATA/Dashboards_NoStatus/WorkedExample_CU5_Chinook_Case5.png"
 	width="600">
 
-Update Numbers!
+**Metric Information for 2023**
 
 **Metrics and Data Types** | **CU Information**
 -- | --
 Can absolute abundance be used	| Yes 
-Can relative abundance metric be used	| Yes
-Current generation average	| 40
-Relative abundance lower threshold	| 4,600
-Relative abundance upper threshold	| 640
-Long term trend current value: ratio of current abundance to long-term average	| 250%
-Short term trend (3 generation average) current value	| 100%
+Can relative abundance metric be used	| No
+Current generation average	| 38
+Relative abundance lower threshold	| NA
+Relative abundance upper threshold	| NA
+Long term trend current value: ratio of current abundance to long-term average	| 170%
+Short term trend (3 generation average) current value	| -7%
 Comments |	Migration barriers but considerable recent work to restore spawning habitat
 
