@@ -6,7 +6,7 @@ We have extracted a consistent set of decision rules from status assessments com
 
 Holt (2009) developed and tested a suite of status metrics and associated benchmarks. Four metrics were relied on consistently in the status assessment workshops and therefore form the basis for the decision tree: relative abundance, absolute abundance, short-term and long-term trends (Table 1).  For each metric, a lower and upper benchmark was identified to designate Red, Amber, or Green status zones. Holt (2009) and Holt et al. (2009) document the justification for the selected metric benchmarks. 
 
-The R package WSPMetrics (Holt et al. 2025) implements the metric calculations as well as the selected decision tree, allowing for streamlined application across CUs and for retrospective status assessments. 
+The R package [WSPMetrics (Holt et al. 2025)](https://github.com/Pacific-salmon-assess/WSP-Metrics-Pkg) implements the metric calculations as well as the selected decision tree, allowing for streamlined application across CUs and for retrospective status assessments. 
 
 ## Fundamental Properties of the Decision Tree
 
@@ -16,7 +16,7 @@ Three fundamental properties of the decision tree have been the source of recurr
 
 (2)	Each endpoint assigns a Red, Amber, or Green status with High, Medium, or Low confidence. The confidence rating reflects which metrics were used to assess status (e.g., when CU-specific biological benchmarks are not available, status is determined based on trends, and trend-based statuses have lower confidence).
 
-(3)	Thresholds used throughout the decision tree account for how the standard metrics and associated benchmarks (Table 1) were interpreted by experts in the status integration workshops. The thresholds, therefore, can be different from the standard benchmarks used for individual metrics to address uncertainty in the data and, for the relative abundance metric, uncertainty in the estimated benchmarks. 
+(3)	Thresholds used throughout the decision tree account for how the standard metrics and associated benchmarks were interpreted by experts in the status integration workshops. The thresholds, therefore, can be different from the standard benchmarks used for individual metrics to address uncertainty in the data and, for the relative abundance metric, uncertainty in the estimated benchmarks. 
 
 
 ## Alternative Displays
@@ -52,15 +52,15 @@ Additional metrics are considered in a sequence that reflects how experts in the
 * If CU-specific biological benchmarks are available (Node 4 in the tree, criterion C1 in the table), then the relative abundance metric is used to determine status with high confidence.  If generational average is below the lower threshold, status is Red (Node 19), if it falls between lower and upper thresholds, status is Amber (Node 37), and if above the upper threshold status is Green (Node 36). The lower threshold is the same as the lower benchmark for the relative abundance metric, but the upper threshold includes a 10% buffer above the upper benchmark for the metric. This reflects the workshop consensus that abundance should be clearly above the upper benchmark before Green status is assigned.
 
 * If CU-specific biological benchmarks are not available, then status is determined based on trend considerations using fixed thresholds that apply to all CUs. The sequence first checks for Red status based on pronounced long-term decline, then based on steep short-term decline. If neither of these applies, then it checks for a very clear long-term increase to distinguish between Amber and Green status. Red statuses based on pronounced decline are considered medium confidence. Amber or Green status based on long-term trend is considered low confidence. Specifically: 
-
-o	If the current abundance is less than 79% of the long term average (Node 8), then the status is Red with medium confidence (Node 17).  As in Branch 2 above, this threshold includes a buffer above the upper benchmark for the long-term trend metric (79% vs. 75% of long-term average).
-o	If short-term trend (change over three generations) shows a decline greater than 70% (Node 16), then the status is Red with medium confidence (Node 33). By itself, this threshold appears to be much less biologically conservative than the lower benchmark for the short-term trend metric, which is a 25% decline (Table B1). However, within the decision tree sequence this criterion is only considered if the long-term trend does not indicate a pronounced decline. Expert consensus in the status workshops was that short-term trend over three generation can be highly volatile for Pacific salmon CUs, frequently switching between indicating declines and increases. A very clear signal is needed to justify a determination of Red status based on this metric if current abundance is near or above the long-term average.
-o	If neither of the two previous criteria resulted in a Red status, then a very strong long-term increase (generational average > 233% of long-term average) is needed to determine Green status with low confidence (Node 64), otherwise status is Amber with low confidence (Node 65).
+   * If the current abundance is less than 79% of the long term average (Node 8), then the status is Red with medium confidence (Node 17).  As in Branch 2 above, this threshold includes a buffer above the upper benchmark for the long-term trend metric (79% vs. 75% of long-term average).
+   * If short-term trend (change over three generations) shows a decline greater than 70% (Node 16), then the status is Red with medium confidence (Node 33). By itself, this threshold appears to be much less biologically conservative than the lower benchmark for the short-term trend metric, which is a 25% decline (Table B1). However, within the decision tree sequence this criterion is only considered if the long-term trend does not indicate a pronounced decline. Expert consensus in the status workshops was that short-term trend over three generation can be highly volatile for Pacific salmon CUs, frequently switching between indicating declines and increases. A very clear signal is needed to justify a determination of Red status based on this metric if current abundance is near or above the long-term average.
+   * If neither of the two previous criteria resulted in a Red status, then a very strong long-term increase (generational average > 233% of long-term average) is needed to determine Green status with low confidence (Node 64), otherwise status is Amber with low confidence (Node 65).
 
 
 **Table 1: Definitions and data requirements for standard WSP metrics used in the rapid status decision tree. ‘Generational average’ is the geometric mean of spawner abundance for the most recent generation.**
 
 **WSP Metric**	| **Description**
+-- | --
 Absolute Abundance	| Generational average compared to abundance benchmarks that align with COSEWIC criteria and are supported by conservation biology.  Benchmarks are 1,000 and 10,000 for all CUs. Generally, this metric will only be applied when estimates of total spawner abundance for the CU are available. However, in some cases this metric has been used for CUs where only a relative index of abundance is available, but a plausible range of expansion factors would still result in total abundances well below the lower benchmark (e.g., if generational average for the indicator population is 150 spawners and the whole CU is plausibly 3-5 times larger).  Data requirements are:  (1) no missing years in current generation.
 Relative Abundance |	Generational average compared to CU-specific biological benchmarks based on stock-recruitment (SR) relationships, habitat capacity estimates, or percentiles of the spawner abundance time series. The lower benchmark is either Sgen, the spawner abundance that allows rebuilding to Smsy in one generation in the absence of fishing; 20% of Smax, the spawner abundance that maximizes recruitment; or the 25th percentile of the CU’s spawner abundance time series. The upper benchmark is either 80-85% Smsy; 40% of Smax; or the 75th percentile. Data requirements are: (1) no missing years in current generation, and (2) CU-specific benchmark estimates.
 Long-term Trend	| Ratio of the generational average over the long-term average (geometric mean of all years). Benchmarks are 50% and 75% of the long-term average. Data requirements are: (1) no missing years in current generation, and (2) at least 15 years of abundance estimates.
@@ -70,24 +70,22 @@ Short-term Trend (recent trend)	| Calculated based on the slope in log-transform
 
 **Figure 1: Simplified Decision Tree**
 
-<img src="https://github.com/SOLV-Code/WSP-Rapid-Status-WorkedExamples/blob/main/DATA/DECISION_TREE/WSP_Status_Simplified_DecisionTree.PNG"
+<img src="https://github.com/SOLV-Code/WSP-Rapid-Status-WorkedExamples/blob/main/DECISION_TREE/WSP_Status_Simplified_DecisionTree.PNG"
 	width="600">
 
 
 
 **Figure 2: Full Decision Tree**
 
-<img src="https://github.com/SOLV-Code/WSP-Rapid-Status-WorkedExamples/blob/main/DATA/DECISION_TREE/WSP_Status_Full_DecisionTree.PNG"
+<img src="https://github.com/SOLV-Code/WSP-Rapid-Status-WorkedExamples/blob/main/DECISION_TREE/WSP_Status_Full_DecisionTree.PNG"
 	width="600">
 
 
 
 **Figure 3: Full Decision Tree - Table Version**
 
-<img src="https://github.com/SOLV-Code/WSP-Rapid-Status-WorkedExamples/blob/main/DATA/DECISION_TREE/WSP_Status_Full_DecisionTree_TableVersion.PNG"
+<img src="https://github.com/SOLV-Code/WSP-Rapid-Status-WorkedExamples/blob/main/DECISION_TREE/WSP_Status_Full_DecisionTree_TableVersion.PNG"
 	width="600">
-
-
 
 
 
