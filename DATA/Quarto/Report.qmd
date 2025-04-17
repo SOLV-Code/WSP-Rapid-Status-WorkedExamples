@@ -1,0 +1,67 @@
+---
+title: "Status Report"
+format: 
+  docx:
+    toc: true
+    number-sections: true
+    highlight-style: github
+editor: visual
+execute: 
+  warning: false
+  message: false
+  echo: false
+---
+
+## Introduction
+
+### Background
+
+This report summarizes data, status metrics, and rapid status status results for INSERT LABEL.
+
+### WSP Status Methods
+
+put some brief text here with links to publications
+
+## CU Status
+
+Put some brief text that describes the dashboards
+
+{{< pagebreak >}}
+
+### Chinook_CU_1 (Case1, WorkedExample)
+
+Add description in spec file
+
+![Status Metrics and Rapid Status for Chinook_CU_1](../Dashboards/WorkedExample_CU1_Chinook_Case1.png)
+
+{{< pagebreak >}}
+
+### Sockeye_CU_2 (Case2, WorkedExample)
+
+Add description in spec file
+
+![Status Metrics and Rapid Status for Sockeye_CU_2](../Dashboards/WorkedExample_CU2_Sockeye_Case2.png)
+
+{{< pagebreak >}}
+
+### Chinook_CU_3 (Case3, WorkedExample)
+
+Add description in spec file
+
+![Status Metrics and Rapid Status for Chinook_CU_3](../Dashboards/WorkedExample_CU3_Chinook_Case3.png)
+
+{{< pagebreak >}}
+
+### Sockeye_CU_4 (Case4, WorkedExample)
+
+Add description in spec file
+
+![Status Metrics and Rapid Status for Sockeye_CU_4](../Dashboards/WorkedExample_CU4_Sockeye_Case4.png)
+
+{{< pagebreak >}}
+
+### Chinook_CU_5 (Case5, WorkedExample)
+
+Add description in spec file
+
+![Status Metrics and Rapid Status for Chinook_CU_5](../Dashboards/WorkedExample_CU5_Chinook_Case5.png)
