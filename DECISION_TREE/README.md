@@ -1,5 +1,7 @@
 # WSP STATUS DECISION TREE
 
+References with links are listed at the end of the [main Readme](https://github.com/SOLV-Code/WSP-Rapid-Status-WorkedExamples/tree/main?tab=readme-ov-file#references)
+
 ## Background
 
 We have extracted a consistent set of decision rules from status assessments completed in a series of expert workshops (Grant & Pestal 2013; DFO 2015; DFO 2016; Grant et al. 2020) and formalized these rules in a decision tree that works through a sequence of yes/no questions based on available information. Pestal et al. (2023) and DFO (2024) document the development and testing of candidate decision trees. 
@@ -89,8 +91,3 @@ Short-term Trend (recent trend)	| Calculated based on the slope in log-transform
 
 
 
-
-## References
-
-
-Add full citations with links
