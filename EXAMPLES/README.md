@@ -1,3 +1,6 @@
+
+**If you are viewing this on Github, this readme file should display fully rendered, including the figures. If you are looking at a downloaded copy of the repository, this readme will only show the markdown source. To see the full document including figures, open the word file.**
+
 # Learning to assign WSP rapid statuses with decision tree - Practical Exercises
 
 You will need three things:
