@@ -1,3 +1,6 @@
+**If you are viewing this on Github, this readme file should display fully rendered, including the figures. If you are looking at a downloaded copy of the repository, this readme will only show the markdown source. To see the full document including figures, open the word file.**
+
+
 # SOLUTIONS FOR THE EXAMPLES
 
 ## Conservation Unit 1 (Chinook)
