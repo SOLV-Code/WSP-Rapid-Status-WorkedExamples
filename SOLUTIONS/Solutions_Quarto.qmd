@@ -20,7 +20,7 @@ execute:
 
 Rapid status for 2023 is Green with High Confidence (Node 36 in the decision tree).
 
-![Status Metrics and Rapid Status for Chinook_CU_1](../DATA/Dashboards_NoStatus/WorkedExample_CU1_Chinook_Case1.png)
+![Status Metrics and Rapid Status for Chinook_CU_1](../DATA/Dashboards/WorkedExample_CU1_Chinook_Case1.png)
 
 {{< pagebreak >}}
 

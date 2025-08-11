@@ -18,7 +18,7 @@ CU-level time series to status dashboards.
 
 * [DECISION_TREE Folder](https://github.com/SOLV-Code/WSP-Rapid-Status-WorkedExamples/tree/main/DECISION_TREE): contains background information and alternative displays of the WSP status decision tree.
 
-* [EXAMPLES Folder](https://github.com/SOLV-Code/WSP-Rapid-Status-WorkedExamples/tree/main/EXAMPLES): contains status metrics and some context for examples CUs. Try to work through each example using the [Decision Tree](https://github.com/SOLV-Code/WSP-Rapid-Status-WorkedExamples/tree/main/DECISION_TREE) and [workbook template](https://github.com/SOLV-Code/WSP-Rapid-Status-WorkedExamples/blob/main/TEMPLATES/WSP_Status_Template.pdf) 
+* [EXAMPLES Folder](https://github.com/SOLV-Code/WSP-Rapid-Status-WorkedExamples/tree/main/EXAMPLES): contains status metrics and some context for example CUs. Try to work through each example using the [Decision Tree](https://github.com/SOLV-Code/WSP-Rapid-Status-WorkedExamples/tree/main/DECISION_TREE) and [workbook template](https://github.com/SOLV-Code/WSP-Rapid-Status-WorkedExamples/blob/main/TEMPLATES/WSP_Status_Template.pdf) 
 
 * [SOLUTIONS FOLDER](https://github.com/SOLV-Code/WSP-Rapid-Status-WorkedExamples/tree/main/SOLUTIONS): contains answers for the examples.
 
