@@ -31,7 +31,7 @@ You will need three things:
 **Metric Information for 2023**
 
 | **Metrics and Data Types** | **CU Information** |
-|----|----|
+|------------------------------------|------------------------------------|
 | Can Absolute Abundance be used? | Yes-data are fence counts of absolute abundance |
 | Can relative abundance metric be used | Yes benchmarks align with abundance time series |
 | Current generation average | 38,600 |
@@ -50,7 +50,7 @@ You will need three things:
 **Metric Information for 2022**
 
 | **Metrics and Data Types** | **CU Information** |
-|----|----|
+|------------------------------------|------------------------------------|
 | Can absolute abundance be used | Yes, data are sonar high accuracy and precision generally |
 | Can relative abundance metric be used | Yes, benchmarks align with abundance time series |
 | Current generation average | 2,300 |
@@ -69,7 +69,7 @@ You will need three things:
 **Metric Information for 2023**
 
 | **Metrics and Data Types** | **CU Information** |
-|----|----|
+|------------------------------------|------------------------------------|
 | Can absolute abundance be used | No, these are visual surveys with moderate precision-accuracy; aerial overflights |
 | Can relative abundance metric be used | No, there are no benchmarks for this CU |
 | Current generation average | 221,900 |
@@ -88,7 +88,7 @@ You will need three things:
 **Metric Information for 2023**
 
 | **Metrics and Data Types** | **CU Information** |
-|----|----|
+|------------------------------------|------------------------------------|
 | Can absolute abundance be used | No, these are visual surveys with moderate precision-accuracy; foot surveys |
 | Can relative abundance metric be used | No, there are no benchmarks for this CU |
 | Current generation average | 722 |
@@ -107,7 +107,7 @@ You will need three things:
 **Metric Information for 2023**
 
 | **Metrics and Data Types** | **CU Information** |
-|----|----|
+|------------------------------------|------------------------------------|
 | Can absolute abundance be used | Yes |
 | Can relative abundance metric be used | No |
 | Current generation average | 38 |
@@ -126,7 +126,7 @@ You will need three things:
 **Metric Information for 2023**
 
 | **Metrics and Data Types** | **CU Information** |
-|----|----|
+|------------------------------------|------------------------------------|
 | Can absolute abundance be used | Yes |
 | Can relative abundance metric be used | Yes |
 | Current generation average | 4451 |

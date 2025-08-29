@@ -119,3 +119,26 @@ Long term trend current value: ratio of current abundance to long-term average	|
 Short term trend (3 generation average) current value	| -7%
 Comments |	Migration barriers but considerable recent work to restore spawning habitat
 
+
+### Conservation Unit 6 (Coho)
+
+
+<img src="https://github.com/SOLV-Code/WSP-Rapid-Status-WorkedExamples/blob/main/DATA/Dashboards_NoStatus/WorkedExample_CU6_Coho_Case6.png"
+	width="600">
+
+
+**Metric Information for 2023**
+
+| **Metrics and Data Types** | **CU Information** 
+-- | --
+| Can absolute abundance be used | Yes 
+| Can relative abundance metric be used | Yes 
+| Current generation average | 4451 
+| Relative abundance lower benchmark | 327 
+| Relative abundance upper benchmark | 1099 
+| Long term trend current value: ratio of current abundance to long-term average | 154% 
+| Short term trend (3 generation average) current value | 275% 
+| Comments | Recent fire activity and rain-triggered debris flows raise habitat concerns 
+
+
+
