@@ -46,3 +46,13 @@ Rapid status for 2023 is Red with High Confidence (Node 3 in the decision tree).
 
 <img src="https://github.com/SOLV-Code/WSP-Rapid-Status-WorkedExamples/blob/main/DATA/Dashboards/WorkedExample_CU5_Chinook_Case5.png"
 	width="600">
+	
+	
+## Conservation Unit 6 (Coho)
+
+
+Rapid status for 2023 is Amber with High Confidence (Node 22 in the decision tree).
+
+<img src="https://github.com/SOLV-Code/WSP-Rapid-Status-WorkedExamples/blob/main/DATA/Dashboards/WorkedExample_CU6_Coho_Case6.png"
+	width="600">
+
