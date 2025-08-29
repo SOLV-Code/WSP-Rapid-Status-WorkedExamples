@@ -31,12 +31,12 @@ You will need three things:
 **Metric Information for 2023**
 
 | **Metrics and Data Types** | **CU Information** |
-|------------------------------------|------------------------------------|
+|----|----|
 | Can Absolute Abundance be used? | Yes-data are fence counts of absolute abundance |
 | Can relative abundance metric be used | Yes benchmarks align with abundance time series |
 | Current generation average | 38,600 |
-| Relative abundance lower threshold | 13,650 |
-| Relative abundance upper threshold | 26,800 |
+| Relative abundance lower benchmark | 13,650 |
+| Relative abundance upper benchmark | 26,800 |
 | Long term trend current value: ratio of current abundance to long-term average | 188% |
 | Short term trend (3 generation average) current value | 305% |
 | Comments | recent fires in this system; lots of human activity in the area; high use of lake and streams; |
@@ -50,12 +50,12 @@ You will need three things:
 **Metric Information for 2022**
 
 | **Metrics and Data Types** | **CU Information** |
-|------------------------------------|------------------------------------|
+|----|----|
 | Can absolute abundance be used | Yes, data are sonar high accuracy and precision generally |
 | Can relative abundance metric be used | Yes, benchmarks align with abundance time series |
 | Current generation average | 2,300 |
-| Relative abundance lower threshold | 4,700 |
-| Relative abundance upper threshold | 17,000 |
+| Relative abundance lower benchmark | 4,700 |
+| Relative abundance upper benchmark | 17,000 |
 | Long term trend current value: ratio of current abundance to long-term average | 54% |
 | Short term trend (3 generation average) current value | -74% |
 | Comments | Dam on this system early in time series removed in 1950’s for one population; recent fires |
@@ -69,12 +69,12 @@ You will need three things:
 **Metric Information for 2023**
 
 | **Metrics and Data Types** | **CU Information** |
-|------------------------------------|------------------------------------|
+|----|----|
 | Can absolute abundance be used | No, these are visual surveys with moderate precision-accuracy; aerial overflights |
 | Can relative abundance metric be used | No, there are no benchmarks for this CU |
 | Current generation average | 221,900 |
-| Relative abundance lower threshold | NA |
-| Relative abundance upper threshold | NA |
+| Relative abundance lower benchmark | NA |
+| Relative abundance upper benchmark | NA |
 | Long term trend current value: ratio of current abundance to long-term average | 822% |
 | Short term trend (3 generation average) current value | 361% |
 | Comments | none |
@@ -88,12 +88,12 @@ You will need three things:
 **Metric Information for 2023**
 
 | **Metrics and Data Types** | **CU Information** |
-|------------------------------------|------------------------------------|
+|----|----|
 | Can absolute abundance be used | No, these are visual surveys with moderate precision-accuracy; foot surveys |
 | Can relative abundance metric be used | No, there are no benchmarks for this CU |
 | Current generation average | 722 |
-| Relative abundance lower threshold | NA |
-| Relative abundance upper threshold | NA |
+| Relative abundance lower benchmark | NA |
+| Relative abundance upper benchmark | NA |
 | Long term trend current value: ratio of current abundance to long-term average | 74% |
 | Short term trend (3 generation average) current value | -96% |
 | Comments | Big landslide in this system’s lake in 2010 increased turbidity for several years; very small system comprised of a few smaller streams that feed into a lake |
@@ -107,12 +107,31 @@ You will need three things:
 **Metric Information for 2023**
 
 | **Metrics and Data Types** | **CU Information** |
-|------------------------------------|------------------------------------|
+|----|----|
 | Can absolute abundance be used | Yes |
 | Can relative abundance metric be used | No |
 | Current generation average | 38 |
-| Relative abundance lower threshold | NA |
-| Relative abundance upper threshold | NA |
+| Relative abundance lower benchmark | NA |
+| Relative abundance upper benchmark | NA |
 | Long term trend current value: ratio of current abundance to long-term average | 170% |
 | Short term trend (3 generation average) current value | -7% |
 | Comments | Migration barriers but considerable recent work to restore spawning habitat |
+
+{{< pagebreak >}}
+
+### Conservation Unit 6 (Coho)
+
+![Status Metrics and Rapid Status for Coho_CU_6](../DATA/Dashboards_NoStatus/WorkedExample_CU6_Coho_Case6.png)
+
+**Metric Information for 2023**
+
+| **Metrics and Data Types** | **CU Information** |
+|----|----|
+| Can absolute abundance be used | Yes |
+| Can relative abundance metric be used | Yes |
+| Current generation average | 4451 |
+| Relative abundance lower benchmark | 327 |
+| Relative abundance upper benchmark | 1099 |
+| Long term trend current value: ratio of current abundance to long-term average | 154% |
+| Short term trend (3 generation average) current value | 275% |
+| Comments | Recent fire activity and rain-triggered debris flows raise habitat concerns |

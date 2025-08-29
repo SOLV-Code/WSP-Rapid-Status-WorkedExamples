@@ -4,3 +4,4 @@ Case2,CU2_Sockeye,Sockeye_CU_2,WorkedExample,Add description in spec file,Abs_Ab
 Case3,CU3_Chinook,Chinook_CU_3,WorkedExample,Add description in spec file,Rel_Idx,FALSE,FALSE,TRUE,TRUE,FALSE,4,FALSE,NA,NA,3,0,TRUE,FALSE,geomean,FALSE,FALSE,15,regular,21244,48317,1000,10000,0.5,0.75,-25,-15,NA,NA,1975,1975
 Case4,CU4_Sockeye,Sockeye_CU_4,WorkedExample,Add description in spec file,Rel_Idx,FALSE,FALSE,TRUE,TRUE,TRUE,4,FALSE,NA,NA,3,0,TRUE,TRUE,geomean,TRUE,FALSE,15,regular,NA,NA,1000,10000,0.5,0.75,-25,-15,NA,NA,1950,1950
 Case5,CU5_Chinook,Chinook_CU_5,WorkedExample,Add description in spec file,Abs_Abd,TRUE,TRUE,TRUE,TRUE,FALSE,4,FALSE,NA,NA,3,0,TRUE,FALSE,geomean,FALSE,FALSE,15,regular,NA,NA,1000,10000,0.5,0.75,-25,-15,NA,NA,2006,2006
+Case6,CU6_Coho,Coho_CU_6,WorkedExample,Add description in spec file,Abs_Abd,TRUE,TRUE,TRUE,TRUE,TRUE,3,FALSE,NA,NA,3,1,TRUE,TRUE,geomean,FALSE,FALSE,15,regular,327,1099,1000,10000,0.5,0.75,-25,-15,NA,NA,1998,1998

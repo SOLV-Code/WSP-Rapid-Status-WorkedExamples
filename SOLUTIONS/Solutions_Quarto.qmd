@@ -53,3 +53,12 @@ Rapid status for 2023 is Red with Medium Confidence (Node 33 in the decision tre
 Rapid status for 2023 is Red with High Confidence (Node 3 in the decision tree).
 
 ![Status Metrics and Rapid Status for Chinook_CU_5](../DATA/Dashboards/WorkedExample_CU5_Chinook_Case5.png)
+
+
+{{< pagebreak >}}
+
+## Conservation Unit 6 (Coho)
+
+Rapid status for 2023 is Amber with High Confidence (Node 22 in the decision tree).
+
+![Status Metrics and Rapid Status for Coho_CU_6](../DATA/Dashboards/WorkedExample_CU6_Coho_Case6.png)
