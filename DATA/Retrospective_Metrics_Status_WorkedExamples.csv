@@ -9,13 +9,13 @@
 "Case1","Chinook","CU1_Chinook",2002,"Abs_Abd","Green","Green","Green","Green",NA,NA,"Green","Green","Green","Green",6,38406.6478317237
 "Case1","Chinook","CU1_Chinook",2003,"Abs_Abd","Green","Green","Green","Green",NA,NA,"Green","Green","Green","Green",6,36107.5911023302
 "Case1","Chinook","CU1_Chinook",2004,"Abs_Abd","Green","Green","Green","Green",NA,NA,"Green","Green","Green","Green",6,32325.4336466518
-"Case1","Chinook","CU1_Chinook",2005,"Abs_Abd","Green","Green","Green","Amber",NA,NA,"Green","Green","Green","Green",6,27864.9719285239
+"Case1","Chinook","CU1_Chinook",2005,"Abs_Abd","Green","Green","Green","Green",NA,NA,"Green","Green","Green","Green",6,27864.9719285239
 "Case1","Chinook","CU1_Chinook",2006,"Abs_Abd","Green","Green","Green","Green",NA,NA,"Green","Green","Green","Green",6,28966.0288213008
 "Case1","Chinook","CU1_Chinook",2007,"Abs_Abd","Amber","Green","Green","Amber",NA,NA,"Amber","Green","Amber","Green",6,24249.3355064613
 "Case1","Chinook","CU1_Chinook",2008,"Abs_Abd","Amber","Green","Green","Red",NA,NA,"Amber","Green","Amber","Green",6,23417.6737848105
 "Case1","Chinook","CU1_Chinook",2009,"Abs_Abd","Amber","Green","Green","Red",NA,NA,"Amber","Green","Amber","Green",6,25477.5491782922
 "Case1","Chinook","CU1_Chinook",2010,"Abs_Abd","Amber","Green","Green","Green",NA,NA,"Amber","Green","Amber","Green",6,26718.2553953535
-"Case1","Chinook","CU1_Chinook",2011,"Abs_Abd","Green","Green","Green","Amber",NA,NA,"Green","Green","Green","Green",6,27459.868360194
+"Case1","Chinook","CU1_Chinook",2011,"Abs_Abd","Green","Green","Green","Green",NA,NA,"Green","Green","Green","Green",6,27459.868360194
 "Case1","Chinook","CU1_Chinook",2012,"Abs_Abd","Amber","Green","Green","Red",NA,NA,"Amber","Green","Amber","Green",6,19313.9845265335
 "Case1","Chinook","CU1_Chinook",2013,"Abs_Abd","Amber","Green","Green","Red",NA,NA,"Amber","Green","Amber","Green",6,19163.7215647858
 "Case1","Chinook","CU1_Chinook",2014,"Abs_Abd","Amber","Green","Green","Amber",NA,NA,"Amber","Green","Amber","Green",6,16740.9250019487
@@ -24,7 +24,7 @@
 "Case1","Chinook","CU1_Chinook",2017,"Abs_Abd","Amber","Green","Green","Red",NA,NA,"Amber","Green","Amber","Green",6,20264.2164546722
 "Case1","Chinook","CU1_Chinook",2018,"Abs_Abd","Amber","Green","Green","Red",NA,NA,"Amber","Green","Amber","Green",6,15820.7755839088
 "Case1","Chinook","CU1_Chinook",2019,"Abs_Abd","Amber","Green","Amber","Amber",NA,NA,"Amber","Green","Amber","Green",6,14249.3082286595
-"Case1","Chinook","CU1_Chinook",2020,"Abs_Abd","Amber","Green","Green","Red",NA,NA,"Amber","Green","Amber","Green",6,19705.5071092156
+"Case1","Chinook","CU1_Chinook",2020,"Abs_Abd","Amber","Green","Green","Amber",NA,NA,"Amber","Green","Amber","Green",6,19705.5071092156
 "Case1","Chinook","CU1_Chinook",2021,"Abs_Abd","Amber","Green","Green","Green",NA,NA,"Amber","Green","Amber","Green",6,24385.1520068173
 "Case1","Chinook","CU1_Chinook",2022,"Abs_Abd","Green","Green","Green","Green",NA,NA,"Green","Green","Green","Green",6,29285.777771397
 "Case1","Chinook","CU1_Chinook",2023,"Abs_Abd","Green","Green","Green","Green",NA,NA,"Green","Green","Green","Green",6,38625.899371848
@@ -112,7 +112,7 @@
 "Case4","Sockeye","CU4_Sockeye",2019,"Rel_Idx",NA,NA,"Green","Red",NA,"Green",NA,NA,NA,NA,2,873.897338790824
 "Case4","Sockeye","CU4_Sockeye",2020,"Rel_Idx",NA,NA,"Green","Red",NA,"Green",NA,NA,NA,NA,2,416.770446965963
 "Case4","Sockeye","CU4_Sockeye",2021,"Rel_Idx",NA,NA,"Green","Red",NA,"Green",NA,NA,NA,NA,2,318.335475254833
-"Case4","Sockeye","CU4_Sockeye",2022,"Rel_Idx",NA,NA,"Green","Red",NA,"Green",NA,NA,NA,NA,2,337.949106767169
+"Case4","Sockeye","CU4_Sockeye",2022,"Rel_Idx",NA,NA,"Amber","Red",NA,"Green",NA,NA,NA,NA,2,337.949106767169
 "Case4","Sockeye","CU4_Sockeye",2023,"Rel_Idx",NA,NA,"Amber","Red",NA,"Green",NA,NA,NA,NA,2,721.975585090047
 "Case5","Chinook","CU5_Chinook",1995,"Abs_Abd",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,NA
 "Case5","Chinook","CU5_Chinook",1996,"Abs_Abd",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,NA
