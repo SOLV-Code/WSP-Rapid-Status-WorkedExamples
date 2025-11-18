@@ -46,13 +46,15 @@ Additional metrics are applied in a sequence that reflects how experts in the st
 
 If a CU’s abundance exceeds the absolute abundance upper threshold of 10,000, or the total spawner abundance for the CU is unknown, other metrics are used to assign a Red, Amber, or Green status. Metrics are applied in a sequence reflecting expert consensus from status workshops:
 
-* If the relative abundance metric can be used (Node 4)
+* If the relative abundance metric can be used (Node 4):
+  
 o	Current average abundance below the lower threshold: Red status (Node 19) 
 o	Between lower and upper thresholds: Amber status (Node 37)
 o	Above the upper threshold: Green status (Node 36)
 o	Confidence is High for all three outcomes
 
 * If relative abundance cannot be used, trend metrics are applied:
+  
 o	Long-term trend metric (Node 8)
 -Below the lower threshold: Red status with Medium Confidence (Node 17) 
 -Above threshold, then proceed to the next node.
