@@ -10,7 +10,7 @@ Holt (2009) developed and tested a suite of status metrics and associated benchm
 
 The R package [WSPMetrics (Holt et al. 2025)](https://github.com/Pacific-salmon-assess/WSP-Metrics-Pkg) implements the metric calculations as well as the selected decision tree, allowing for streamlined application across CUs and for retrospective status assessments. 
 
-## Fundamental Properties of the Decision Tree
+## Fundamental Properties of the WSP Rapid Status Decision Tree
 
 Three fundamental properties of the decision tree include: 
 
