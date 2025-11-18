@@ -48,28 +48,32 @@ If a CU’s abundance exceeds the absolute abundance upper threshold of 10,000, 
 
 * If the relative abundance metric can be used (Node 4):
   
-o	Current average abundance below the lower threshold: Red status (Node 19) 
+	o	Current average abundance below the lower threshold: Red status (Node 19) 
 
-o	Between lower and upper thresholds: Amber status (Node 37)
+	o	Between lower and upper thresholds: Amber status (Node 37)
 
-o	Above the upper threshold: Green status (Node 36)
+	o	Above the upper threshold: Green status (Node 36)
 
-o	Confidence is High for all three outcomes
+	o	Confidence is High for all three outcomes
 
 * If relative abundance cannot be used, trend metrics are applied:
   
-o	Long-term trend metric (Node 8)
+	o	Long-term trend metric (Node 8)
 
--Below the lower threshold: Red status with Medium Confidence (Node 17) 
+		-Below the lower threshold: Red status with Medium Confidence (Node 17) 
 
--Above threshold, then proceed to the next node.
+		-Above threshold, then proceed to the next node.
 
-o	Short-term trend (change over three generations) metric (Node 16)
--Decline > 70%: Red status with Medium Confidence (Node 33)
--if above this threshold, proceeds to the next node.
-o	Long-term trend upper threshold (Node 32)
--Below threshold: Amber with Low confidence (Node 65)
--If above this threshold: Green with Low confidence (Node 64)
+	o	Short-term trend (change over three generations) metric (Node 16)
+
+		-Decline > 70%: Red status with Medium Confidence (Node 33)
+		-if above this threshold, proceeds to the next node.
+  
+	o	Long-term trend upper threshold (Node 32)
+
+		-Below threshold: Amber with Low confidence (Node 65)
+
+		-If above this threshold: Green with Low confidence (Node 64)
 
 
 
