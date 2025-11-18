@@ -67,6 +67,7 @@ If a CU’s abundance exceeds the absolute abundance upper threshold of 10,000, 
 	o	Short-term trend (change over three generations) metric (Node 16)
 
 		-Decline > 70%: Red status with Medium Confidence (Node 33)
+  
 		-if above this threshold, proceeds to the next node.
   
 	o	Long-term trend upper threshold (Node 32)
