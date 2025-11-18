@@ -13,6 +13,7 @@ The R package [WSPMetrics (Holt et al. 2025)](https://github.com/Pacific-salmon-
 ## Fundamental Properties of the Decision Tree
 
 Three fundamental properties of the decision tree include: 
+
 (1) A status determination does not rely on a simple tally of metric results. Instead, the decision tree follows a sequence of Yes/No branching questions that determine which metrics are applied for a given CU. Not all applicable metrics are used for each CU. The order of operations reflects how metrics have been weighed in past status workshops. For example, if the relative abundance metric can be applied, then trend-based metrics are not used, as expert consensus recognized trend metrics as less reliable. 
 
 (2) Each endpoint on the decision tree assigns a Red, Amber, or Green status paired with a High, Medium, or Low confidence. Confidence reflects the type of metrics used to assign status: determinations based on the absolute or relative abundance metrics are considered High Confidence, while those based on trend metrics are considered Low or Medium Confidence. 
