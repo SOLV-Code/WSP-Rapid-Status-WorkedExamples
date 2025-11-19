@@ -54,6 +54,7 @@ names(metrics.out$Metrics)
 
 
 
+
 rapid.status.input <- prepDataForRapidStatus(
   cu.info = metrics.out$Specs,
   metrics.raw = metrics.out$Metrics,
