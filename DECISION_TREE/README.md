@@ -23,7 +23,7 @@ Three fundamental properties of the decision tree include:
 
 ## Alternative Displays
 
-To support the initial learning of the WSP rapid status approach, we provide two versions of the decision tree: a simplified version showing the basic structure (Fig. 2) and the full version (Fig. B1). In the full version diagram (Fig. B1), each Yes/No question is represented as a node. All CU assessments begin at the same starting point (node 1) and proceed along different branches depending on the answers at each node, ultimately reaching distinct status and confidence outcomes. 
+To support the initial learning of the WSP rapid status approach, we provide two versions of the decision tree: a simplified version showing the basic structure (Figure 1) and the full version (Figure 2). In the full version diagram (Figure 2), each Yes/No question is represented as a node. All CU assessments begin at the same starting point (node 1) and proceed along different branches depending on the answers at each node, ultimately reaching distinct status and confidence outcomes. 
 Nodes (decision points) in the decision tree are systematically numbered. Each Yes/No split generates two new nodes: the No branch is numbered as double the parent node (e.g. 2), and the Yes branch is numbered as double +1 (e.g. 3). This numbering system uniquely defines the full path taken to reach any given node. For example, cases that end at Node 17 follow the path YES at node 8, NO at node 4, NO at node 2, and NO at node 1. 
 
 ## Three Main Branches
@@ -98,15 +98,9 @@ Short-term Trend (recent trend)	| Calculated based on the slope in log-transform
 
 **Figure 2: Full Decision Tree**
 
-<img src="https://github.com/SOLV-Code/WSP-Rapid-Status-WorkedExamples/blob/main/DECISION_TREE/WSP_Status_Full_DecisionTree.PNG"
+<img src="https://github.com/SOLV-Code/WSP-Rapid-Status-WorkedExamples/blob/main/DECISION_TREE/Full Decision Tree (full algorithm).jpg"
 	width="600">
 
-
-
-**Figure 3: Full Decision Tree - Table Version**
-
-<img src="https://github.com/SOLV-Code/WSP-Rapid-Status-WorkedExamples/blob/main/DECISION_TREE/WSP_Status_Full_DecisionTree_TableVersion.PNG"
-	width="600">
 
 
 
