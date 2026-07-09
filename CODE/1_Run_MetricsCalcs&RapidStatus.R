@@ -27,7 +27,7 @@ require("devtools") # check for and, if needed, install the devtools package
 library(devtools) # Load the devtools package.
 
 # for latest dev version, use this
-install_github("SOLV-CODE/WSP-Metrics-Pkg", dependencies = TRUE, build_vignettes = FALSE)
+pak::pak("SOLV-CODE/WSP-Metrics-Pkg")
 
 # for latest official version, use this
 #install_github("Pacific-salmon-assess/WSP-Metrics-Pkg", dependencies = TRUE, build_vignettes = FALSE)
@@ -109,5 +109,46 @@ generateReportTemplate(type = "quarto",
                        file.label = "Report", # doesn't apply to readme
                        files.path = "DATA",
                        repo.path = NULL)
+
+
+
+
+# Illustration of the function plotSlopeMetricDetails()
+# generate diagnostic plot for CU = "Case1"  and  years =  2010 to 2023
+
+if(!dir.exists("DATA/SlopeDiagnostics")){dir.create("DATA/SlopeDiagnostics")}
+
+cu.do <- "Case1"
+cu.label.use <- "Chinook_CU_1"
+
+for(yr.do in 2010:2023){
+
+png(filename=paste0("DATA/SlopeDiagnostics/SlopeMetricDetails_",cu.do,"_",yr.do,".png"),
+    width = 480*4.5,
+    height = 480*3.5,
+    units = "px", pointsize = 14*2.3, bg = "white",  res = NA)
+
+
+graphics::layout(mat=matrix(c(1,2,3,4),ncol=2,byrow=TRUE),heights = c(1,1))
+#layout.show(5)
+
+par(mai = c(2,2,2,2))
+
+
+plotSlopeMetricDetails(
+  cu.file = read_csv("DATA/CU_Data_WorkedExamples.csv"), # same as used in call to calculateMetricsByCU() above
+  metrics.results = metrics.out, # output from call to calculateMetricsByCU()
+  status.results = rapid.status.results, # output from generateRapidStatus()
+  cu.plot = cu.do,
+  year.plot = yr.do,
+  year.range = c(1960, 2030),
+  spn.label = "Wild Spawners",
+  cu.label = cu.label.use
+)
+
+
+dev.off()
+
+}
 
 
