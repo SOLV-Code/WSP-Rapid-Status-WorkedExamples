@@ -52,7 +52,7 @@ metrics.out <- calculateMetricsByCU(cu.file = read_csv("DATA/CU_Data_WorkedExamp
 names(metrics.out)
 names(metrics.out$Metrics)
 
-
+names(metrics.out$Specs)
 
 
 rapid.status.input <- prepDataForRapidStatus(
